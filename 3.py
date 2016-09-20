@@ -10,10 +10,10 @@ for i in range(n):
     for i in range(4):
         t.forward(s)
         t.left(a)
-        t.penup()
-        t.backward(p/2)
-        t.right(a)
-        t.forward(p/2)
-        t.left(90)
-        s+=p
-        t.pendown()
+    t.penup()
+    t.backward(p/2)
+    t.right(a)
+    t.forward(p/2)
+    t.left(90)
+    s+=p
+    t.pendown()
